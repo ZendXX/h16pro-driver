@@ -7,11 +7,13 @@ By **Hers**.
 
 ## Features
 
-- Pick the lighting effect (applies live)
-- Set the six DPI stages (200 to 12000) and choose the active stage
-- Set the report rate (125, 250, 500 or 1000 Hz)
-- Read the current settings from the mouse and save changes back
-- Keyboard or mouse navigation, black and white themes, windowed or fullscreen
+- Lighting effect (applies live)
+- Six DPI stages (200 to 12000) with drag bars, and the active stage
+- Report rate (125, 250, 500 or 1000 Hz) and roller direction
+- Key response, sleep time, lift-off distance and high speed mode (units not confirmed, change in small steps)
+- Button remapping among the six basic functions (left, right, middle, backward, forward, DPI cycle)
+- Read from and save to the mouse, export and import settings as a JSON file
+- Terminal style in JetBrains Mono, keyboard or mouse navigation, black and white themes, windowed or fullscreen
 
 ## Use it
 
@@ -27,7 +29,8 @@ Keys: Up/Down move, Left/Right change a value, Enter runs or cycles an item.
 
 - **No single-color lighting.** The mouse firmware only has built-in animated effects plus "Turn off the light". Nothing in the protocol sets a color.
 - The names of the lighting effects follow the order of the official driver's list and may not match the mouse's numbering exactly.
-- Button remapping and macros are not implemented.
+- Keyboard-key remapping, macros and multiple on-mouse profiles are not implemented.
+- JetBrains Mono loads from Google Fonts. Offline, the page falls back to a system monospace font.
 - This project has **not been fully tested on real hardware**. Use it at your own risk. A wrong packet could change settings you did not intend, so read the settings first and keep the official driver as a fallback.
 
 ## How it works
